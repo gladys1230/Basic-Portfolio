@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(file:///Users/kitchan/Desktop/Assignment_1/Basic-Portfolio/assets/images/asanoha-400px.png);
+    background-image: url("../images/asanoha-400px.png") !important;
 }
     
 ul {
@@ -87,6 +87,7 @@ article {
     height: auto;
     text-align: center;
     background-color: white;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
 
 .socialmedialogo {
@@ -101,6 +102,33 @@ article {
 
 .bio {
     margin: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contactKit {
+    width: 650px;
+    border-color: #dddddd;
+    height: auto;
+    float: left;
+    background-color: white;
 
 }
+#inputElement {
+    height: 200px !important;
+    width: 650px;
+
+}
+#nameoremailInput {
+    width: 650px;
+
+}
+
+#inputbutton {
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 60px;
+    margin: auto;
+    border: 0;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
